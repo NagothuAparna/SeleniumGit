@@ -16,7 +16,7 @@ public class DropDown {
   public void dropDown() throws InterruptedException {
 	  driver.get("http://baalabharathi.com/upload-story/");
 	  driver.findElement(By.xpath("//*[@id=\"field-5vlVJGcSKva7av0\"]")).sendKeys("520010");
-	  Thread.sleep(3000);
+	  Thread.sleep(5000);
 	  new Select(driver.findElement(By.xpath("//*[@id=\"field-5gVECDat8HE4BHW\"]"))).selectByVisibleText("Angola");
 	  
   }
